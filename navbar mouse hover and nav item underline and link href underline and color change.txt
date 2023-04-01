@@ -1,0 +1,104 @@
+ .dropdown:hover .dropdown-menu{
+    display:block;
+    }
+
+.navbar #menu{
+font-family: bold;
+position: relative;
+}
+
+.navbar #menu:hover{
+color: orange;
+}
+
+
+#menu:after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom:0;
+    
+    transition: 0.3s;
+}
+#menu:hover:after{
+    width: 100%;
+    }
+ 
+
+
+
+
+.bth:hover{
+background-color: red;
+color:white;
+}
+
+.navbar .dropdown .dropdown-menu{
+background-color: yellow;
+}
+
+.navbar .dropdown  .dropdown-item:hover{
+    background-color: navy;
+    color: antiquewhite;
+    }
+
+<-----------background text move and background fixed---------------->
+.smallballoon{
+    background-image: url('images/balloons.png');
+background-size: 100% 100%;
+background-position: center;
+background-attachment: fixed;
+height: 480px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+<---------------------> link href ---------------->
+
+
+.ckk a{
+color: green;
+}
+.clk{
+position: relative;
+
+}
+.clk:hover{
+    color: blue;
+}
+
+.clk:after{
+content: '';
+position: absolute;
+background-color: blue;
+height: 3px;
+left: 0;
+
+bottom: 0;
+
+
+
+transition: 0.3s;
+}
+.clk:hover:after{
+width: 100%;
+}
+
+
+
+
+
+**********html href ************
+<p class="ckk">
+                    <a href="monthly" class=" clk  text-decoration-none">Click</a> to get Your Monthly subscription at $42/month</p><hr>
+
+
+
+
+
